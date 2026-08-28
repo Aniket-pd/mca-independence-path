@@ -20,4 +20,5 @@ footer{color:#fff;background:#28323c;border-top:5px solid var(--saffron);display
 .narration-modes legend{font-size:.85rem}
 .narration-modes label{display:flex;align-items:center;gap:.45rem;font-size:.88rem}
 .narration-modes input{min-height:auto;width:20px;height:20px;margin:0}
+.review-section>.edit-button{margin-top:.75rem}
 @media(max-width:800px){.voice-guide{grid-template-columns:1fr}.voice-copy{grid-row:auto}}
