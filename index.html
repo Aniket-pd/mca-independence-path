@@ -50,8 +50,10 @@
         </aside>
         <div class="content-column">
           <section class="voice-guide" aria-labelledby="voice-heading">
-            <div><h2 id="voice-heading" data-i18n="voiceTitle">Page introduction</h2><p data-i18n="voiceOff">Press Alt + Shift + I on any step to hear what to do. The same introduction appears below the page heading.</p></div>
-            <div class="voice-controls"><button id="voice-play" type="button" aria-keyshortcuts="Alt+Shift+I" data-i18n="play">Play page introduction</button><button id="voice-pause" type="button" data-i18n="pause">Pause</button><button id="voice-replay" type="button" data-i18n="replay">Replay</button><button id="voice-stop" type="button" data-i18n="stop">Stop</button></div>
+            <div class="voice-copy"><h2 id="voice-heading" data-i18n="voiceTitle">Page introduction</h2><p data-i18n="voiceOff">Press Alt + Shift + I to hear the introduction. The same text remains visible below the page heading.</p><p class="screen-reader-advice" data-i18n="screenReaderAdvice">If you use VoiceOver or another screen reader, leave website voice off.</p></div>
+            <fieldset class="narration-modes"><legend data-i18n="narrationMode">Narration mode</legend><label><input type="radio" name="narration-mode" value="screen-reader" checked> <span data-i18n="screenReaderMode">Use my screen reader — recommended</span></label><label><input type="radio" name="narration-mode" value="website-voice"> <span data-i18n="websiteVoiceMode">Use website voice</span></label></fieldset>
+            <div class="voice-controls" id="screen-reader-controls"><button id="announce-introduction" type="button" aria-keyshortcuts="Alt+Shift+I" data-i18n="announceIntro">Read page introduction</button></div>
+            <div class="voice-controls" id="website-voice-controls" hidden><button id="voice-play" type="button" aria-keyshortcuts="Alt+Shift+I" data-i18n="play">Play page introduction</button><button id="voice-pause" type="button" data-i18n="pause">Pause</button><button id="voice-replay" type="button" data-i18n="replay">Replay</button><button id="voice-stop" type="button" data-i18n="stop">Stop</button></div>
           </section>
           <section class="form-card" aria-labelledby="step-heading">
             <div id="error-summary" class="error-summary" tabindex="-1" role="alert" hidden></div>
