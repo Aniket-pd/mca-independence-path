@@ -1,0 +1,11 @@
+{
+  "name": "mca-independence-path",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Accessible company-registration prototype for blind entrepreneurs",
+  "scripts": {
+    "dev": "npx --yes serve . -l 4173",
+    "start": "npx --yes serve . -l 4173"
+  }
+}
+
